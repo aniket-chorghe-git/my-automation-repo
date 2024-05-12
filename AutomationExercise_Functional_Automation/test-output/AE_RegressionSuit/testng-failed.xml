@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AE_RegressionSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="testAE1.AE_TSC001">
+        <methods>
+          <include name="loginAndPlaceOrder"/>
+          <include name="launchBrowser"/>
+          <include name="takeSSAnsDeleteAccount"/>
+          <include name="closeBrowser"/>
+          <include name="navigateURL"/>
+        </methods>
+      </class> <!-- testAE1.AE_TSC001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AE_RegressionSuit] -->
